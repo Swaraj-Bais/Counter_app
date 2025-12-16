@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+        <h1>Counter App</h1>
+        <br>
+        <br>
+        <hr>
+        <div id="div2">
+            <h1 id="val"></h1>
+            <br>
+            <button class="buttons" id="b1" onclick="num=Number(document.querySelector('#numm').value);count+=num;
+            document.querySelector('#val').innerText=count;">+</button>
+            <button class="buttons" onclick="num=Number(document.querySelector('#numm').value);count-=num;
+            document.querySelector('#val').innerText=count;">-</button>
+            <br>
+            <label>Increment/Decrement by: <input type="number" id="numm"></label>
+            <br>
+            <button class="buttons" onclick="count=0;document.querySelector('#val').innerText=count;">rest</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
