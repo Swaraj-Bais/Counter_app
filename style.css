@@ -16,7 +16,6 @@ body{
     border:5px solid orange;
     border-radius: 20px;
     margin-top: 50px;
-    margin-left: 470px;
     background-color: white;
 }
 hr{
@@ -46,5 +45,4 @@ input{
 h1{
    position: relative;
    top:20px;
-
 }
