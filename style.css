@@ -4,6 +4,9 @@
 }
 body{
     background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #div1{
     display: block;
@@ -43,4 +46,5 @@ input{
 h1{
    position: relative;
    top:20px;
+
 }
